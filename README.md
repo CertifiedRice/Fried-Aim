@@ -2,9 +2,9 @@
 
 Aim Trainer made by Fried Rice Entertainment
 
-#
-Developers: \
+# Developers: 
 - Certified Rice(Lead Developer, Programmer, Project Lead)
+
 # 
 
 ToDo:

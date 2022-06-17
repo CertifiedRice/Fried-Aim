@@ -33,6 +33,7 @@ public class Player : MonoBehaviour
         }
         else
         {
+            unfreezecursor();
             GameEnded.SetActive(true);
             StartCoroutine(TeleportToMenu());
         }
@@ -58,5 +59,11 @@ public class Player : MonoBehaviour
         yield return new WaitForSeconds(5);
         
         SceneManager.LoadScene("Menu");
+    }
+
+    void unfreezecursor()
+    {
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
     }
 }

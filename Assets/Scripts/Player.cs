@@ -15,7 +15,8 @@ public class Player : MonoBehaviour
     public Text ScoreText;
     public Text TimeText;
     public GameObject EndGameUi;
-    
+    public GameObject MainUi;
+
     void Awake()
     {
         Instance = this;
@@ -30,6 +31,7 @@ public class Player : MonoBehaviour
         else
         {
             EndGameUi.SetActive(true);
+            MainUi.SetActive(false);
             Pause();
         }
 

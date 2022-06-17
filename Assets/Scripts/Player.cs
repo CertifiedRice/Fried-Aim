@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
     public static Player Instance;
@@ -14,9 +14,12 @@ public class Player : MonoBehaviour
     // UI Variables 
     public Text ScoreText;
     public Text TimeText;
-    public GameObject EndGameUi;
-    public GameObject MainUi;
+    public GameObject GameEnded;
 
+    
+    // Game Objects
+    public GameObject player;
+    
     void Awake()
     {
         Instance = this;
@@ -30,9 +33,8 @@ public class Player : MonoBehaviour
         }
         else
         {
-            EndGameUi.SetActive(true);
-            MainUi.SetActive(false);
-            Pause();
+            GameEnded.SetActive(true);
+            StartCoroutine(TeleportToMenu());
         }
 
         TimeText.text = "Time Left: " + timeRemaining;
@@ -47,5 +49,14 @@ public class Player : MonoBehaviour
     void Pause()
     {
         Time.timeScale = 0f;
+    }
+
+    IEnumerator TeleportToMenu()
+    {
+        // Debug.Log("Started Coroutine at timestamp : " + Time.time);
+
+        yield return new WaitForSeconds(5);
+        
+        SceneManager.LoadScene("Menu");
     }
 }

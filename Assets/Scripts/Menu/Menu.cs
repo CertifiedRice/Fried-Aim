@@ -40,4 +40,9 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+
+    public void Level2()
+    {
+        SceneManager.LoadScene(2);
+    }
 }

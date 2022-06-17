@@ -450,7 +450,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh15844
+  m_Name: pb_Mesh14140
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1219,6 +1219,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 971230694404166396, guid: 3d6d83e2cd3298d4a990237917dc9355,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 971230694404166396, guid: 3d6d83e2cd3298d4a990237917dc9355,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 971230694404166396, guid: 3d6d83e2cd3298d4a990237917dc9355,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 25.253479
+      objectReference: {fileID: 0}
+    - target: {fileID: 971230694404166396, guid: 3d6d83e2cd3298d4a990237917dc9355,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.000002861023
+      objectReference: {fileID: 0}
+    - target: {fileID: 971230694404166396, guid: 3d6d83e2cd3298d4a990237917dc9355,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -12.6267395
+      objectReference: {fileID: 0}
     - target: {fileID: 1380713815704415433, guid: 3d6d83e2cd3298d4a990237917dc9355,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1384,6 +1409,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2205794287610721178, guid: 3d6d83e2cd3298d4a990237917dc9355,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2205794288370911447, guid: 3d6d83e2cd3298d4a990237917dc9355,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1397,7 +1427,7 @@ PrefabInstance:
     - target: {fileID: 3464781355404996631, guid: 3d6d83e2cd3298d4a990237917dc9355,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4750882515211956820, guid: 3d6d83e2cd3298d4a990237917dc9355,
         type: 3}
@@ -1417,7 +1447,7 @@ PrefabInstance:
     - target: {fileID: 6996165997098732004, guid: 3d6d83e2cd3298d4a990237917dc9355,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8031415671366887441, guid: 3d6d83e2cd3298d4a990237917dc9355,
         type: 3}

@@ -882,6 +882,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 45.849003, y: 21.696001, z: 3.7080002}
+--- !u!1 &965243038 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6753853843293800782, guid: 3d6d83e2cd3298d4a990237917dc9355,
+    type: 3}
+  m_PrefabInstance: {fileID: 2205794287206634337}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1040496655 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3464781355404996631, guid: 3d6d83e2cd3298d4a990237917dc9355,
@@ -1244,6 +1250,26 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -12.6267395
       objectReference: {fileID: 0}
+    - target: {fileID: 996201716701279105, guid: 3d6d83e2cd3298d4a990237917dc9355,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 289180870}
+    - target: {fileID: 996201716701279105, guid: 3d6d83e2cd3298d4a990237917dc9355,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: HavenCSite
+      objectReference: {fileID: 0}
+    - target: {fileID: 1349137175211975126, guid: 3d6d83e2cd3298d4a990237917dc9355,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 289180870}
+    - target: {fileID: 1349137175211975126, guid: 3d6d83e2cd3298d4a990237917dc9355,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: GameModeValorant
+      objectReference: {fileID: 0}
     - target: {fileID: 1380713815704415433, guid: 3d6d83e2cd3298d4a990237917dc9355,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1294,6 +1320,11 @@ PrefabInstance:
       propertyPath: accuracy
       value: 
       objectReference: {fileID: 629360166}
+    - target: {fileID: 2205794287175920927, guid: 3d6d83e2cd3298d4a990237917dc9355,
+        type: 3}
+      propertyPath: ValorantUi
+      value: 
+      objectReference: {fileID: 965243038}
     - target: {fileID: 2205794287175920927, guid: 3d6d83e2cd3298d4a990237917dc9355,
         type: 3}
       propertyPath: accuracyUi
@@ -1424,6 +1455,16 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 4.2
       objectReference: {fileID: 0}
+    - target: {fileID: 2772923576283852812, guid: 3d6d83e2cd3298d4a990237917dc9355,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 289180870}
+    - target: {fileID: 2772923576283852812, guid: 3d6d83e2cd3298d4a990237917dc9355,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AscentASite
+      objectReference: {fileID: 0}
     - target: {fileID: 3464781355404996631, guid: 3d6d83e2cd3298d4a990237917dc9355,
         type: 3}
       propertyPath: m_IsActive
@@ -1438,6 +1479,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -35.50001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6753853843293800782, guid: 3d6d83e2cd3298d4a990237917dc9355,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6996165997098732004, guid: 3d6d83e2cd3298d4a990237917dc9355,
         type: 3}

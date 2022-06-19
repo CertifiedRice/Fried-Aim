@@ -9,6 +9,7 @@ public class Menu : MonoBehaviour
     public GameObject GameModesUI;
     public GameObject SettingsUI;
     public GameObject accuracyUi;
+    public GameObject ValorantUi;
     public GameObject gamemodesButtons;
 
     public void PlayLevels()
@@ -58,5 +59,21 @@ public class Menu : MonoBehaviour
     public void Level2()
     {
         SceneManager.LoadScene(2);
+    }
+
+    public void GameModeValorant()
+    {
+        ValorantUi.SetActive(true);
+        gamemodesButtons.SetActive(false);
+    }
+
+    public void AscentASite()
+    {
+        SceneManager.LoadScene(3);
+    }
+
+    public void HavenCSite()
+    {
+            SceneManager.LoadScene(4);
     }
 }

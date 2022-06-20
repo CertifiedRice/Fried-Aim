@@ -6,12 +6,15 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
-    public GameObject LevelsUI;
+    public GameObject GameModesUI;
     public GameObject SettingsUI;
+    public GameObject accuracyUi;
+    public GameObject ValorantUi;
+    public GameObject gamemodesButtons;
 
     public void PlayLevels()
     {
-        LevelsUI.SetActive(true);
+        GameModesUI.SetActive(true);
     }
 
     public void OpenSettings()
@@ -21,12 +24,24 @@ public class Menu : MonoBehaviour
 
     public void CloseLevels()
     {
-        LevelsUI.SetActive(false);
+        GameModesUI.SetActive(false);
     }
 
     public void CloseSettings()
     {
         SettingsUI.SetActive(false);
+    }
+
+    public void GameModeAccuracy()
+    {
+        accuracyUi.SetActive(true);
+        gamemodesButtons.SetActive(false);
+    }
+
+    public void AccuracyMoreGameModes()
+    {
+        accuracyUi.SetActive(false);
+        gamemodesButtons.SetActive(true);
     }
 
     public void QuitGame()
@@ -44,5 +59,21 @@ public class Menu : MonoBehaviour
     public void Level2()
     {
         SceneManager.LoadScene(2);
+    }
+
+    public void GameModeValorant()
+    {
+        ValorantUi.SetActive(true);
+        gamemodesButtons.SetActive(false);
+    }
+
+    public void AscentASite()
+    {
+        SceneManager.LoadScene(3);
+    }
+
+    public void HavenCSite()
+    {
+            SceneManager.LoadScene(4);
     }
 }

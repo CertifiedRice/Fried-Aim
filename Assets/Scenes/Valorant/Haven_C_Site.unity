@@ -4346,6 +4346,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3783084185754344639, guid: 47653d5cd9aac7749b306954e3c16979,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.391
+      objectReference: {fileID: 0}
+    - target: {fileID: 3783084185754344639, guid: 47653d5cd9aac7749b306954e3c16979,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.785
+      objectReference: {fileID: 0}
     - target: {fileID: 5222951915758425087, guid: 47653d5cd9aac7749b306954e3c16979,
         type: 3}
       propertyPath: m_RootOrder
@@ -4401,6 +4411,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7553097152528988189, guid: 47653d5cd9aac7749b306954e3c16979,
+        type: 3}
+      propertyPath: Muzzle
+      value: 
+      objectReference: {fileID: 9201017211027658447}
     - target: {fileID: 8837956226950596665, guid: 47653d5cd9aac7749b306954e3c16979,
         type: 3}
       propertyPath: TimeText
@@ -4418,3 +4433,9 @@ PrefabInstance:
       objectReference: {fileID: 1950571445}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47653d5cd9aac7749b306954e3c16979, type: 3}
+--- !u!198 &9201017211027658447 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 7813378721768294778, guid: 47653d5cd9aac7749b306954e3c16979,
+    type: 3}
+  m_PrefabInstance: {fileID: 9201017211027658446}
+  m_PrefabAsset: {fileID: 0}

@@ -7,12 +7,14 @@ public class TargetShooter : MonoBehaviour
 {
     [SerializeField] Camera cam;
     public AudioSource GunShotSource;
+    public ParticleSystem Muzzle;
     
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
             GunShotSource.Play();
+            Muzzle.Play();
             
             Ray ray = cam.ViewportPointToRay(new Vector3(0.5f, 0.5f));
             if (Physics.Raycast(ray, out RaycastHit hit))

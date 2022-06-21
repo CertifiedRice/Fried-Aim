@@ -810,6 +810,7 @@ GameObject:
   - component: {fileID: 661720662}
   - component: {fileID: 661720661}
   - component: {fileID: 661720660}
+  - component: {fileID: 661720663}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -882,6 +883,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 45.849003, y: 21.696001, z: 3.7080002}
+--- !u!114 &661720663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661720659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ddf50d8eaccbad408dbc3a9e53e36ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &965243038 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6753853843293800782, guid: 3d6d83e2cd3298d4a990237917dc9355,
@@ -1479,6 +1492,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -35.50001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6286507593305587588, guid: 3d6d83e2cd3298d4a990237917dc9355,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 289180870}
+    - target: {fileID: 6286507593305587588, guid: 3d6d83e2cd3298d4a990237917dc9355,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Level2
       objectReference: {fileID: 0}
     - target: {fileID: 6753853843293800782, guid: 3d6d83e2cd3298d4a990237917dc9355,
         type: 3}

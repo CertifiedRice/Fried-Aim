@@ -474,7 +474,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-36904
+  m_Name: pb_Mesh-4838
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -637,7 +637,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-36940
+  m_Name: pb_Mesh-4842
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -800,7 +800,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-36880
+  m_Name: pb_Mesh-4846
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -984,6 +984,11 @@ PrefabInstance:
       propertyPath: timeRemaining
       value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: 1684743942378143111, guid: 3bc62d3503f9d6541ae453d9f43b3cbf,
+        type: 3}
+      propertyPath: Muzzle
+      value: 
+      objectReference: {fileID: 1110813335}
     - target: {fileID: 4020363715962181221, guid: 3bc62d3503f9d6541ae453d9f43b3cbf,
         type: 3}
       propertyPath: m_RootOrder
@@ -1039,6 +1044,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5418009993351305509, guid: 3bc62d3503f9d6541ae453d9f43b3cbf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.488
+      objectReference: {fileID: 0}
+    - target: {fileID: 5418009993351305509, guid: 3bc62d3503f9d6541ae453d9f43b3cbf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.447
+      objectReference: {fileID: 0}
     - target: {fileID: 9031110219631546964, guid: 3bc62d3503f9d6541ae453d9f43b3cbf,
         type: 3}
       propertyPath: m_Name
@@ -1058,6 +1073,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!198 &1110813335 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 1431624522358443232, guid: 3bc62d3503f9d6541ae453d9f43b3cbf,
+    type: 3}
+  m_PrefabInstance: {fileID: 977470339}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1126743035
 GameObject:
   m_ObjectHideFlags: 0
@@ -1156,7 +1177,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-36928
+  m_Name: pb_Mesh-4840
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1319,7 +1340,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-36916
+  m_Name: pb_Mesh-4848
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1482,7 +1503,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-36892
+  m_Name: pb_Mesh-4844
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2

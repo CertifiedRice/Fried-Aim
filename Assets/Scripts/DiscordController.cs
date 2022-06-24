@@ -20,7 +20,7 @@ public class DiscordController : MonoBehaviour {
         {
             if (res == Discord.Result.Ok)
             {
-                Debug.Log("Discord Game SDK Initialized!");
+                Debug.Log("Discord Game SDK Has Initialized!");
             }
             else
             {

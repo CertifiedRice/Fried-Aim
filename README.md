@@ -1,8 +1,5 @@
-﻿# Fried Aim 
+#Fried-Aim 
+Unity Aim Trainer?\
 
-Aim Trainer made by Fried Rice Entertainment
-
-# Developers: 
-- Certified Rice(Lead Developer, Programmer, Project Lead)
-
-# 
+Unfinished project I forgot about\
+Public Archive 
